@@ -1,6 +1,7 @@
 body{
 background-color: #F7DBA7;
 
+
 }
 
 
@@ -27,12 +28,13 @@ background: ;
             background:#F1AB86;
             color:white;              /* Space between items */
         }
-        .row img {
+ .row img {
             width: 300px;               /* Set image size */
             height: auto;               /* Keep aspect ratio */
-            border-radius: 5px;         /* Optional rounded corners */
+            border-radius: 10px; 
+            padding:10px;        /* Optional rounded corners */
         }
-        .text-box {
+.text-box {
             font-size: 25px;
             padding: 10px;
             border-radius: 5px;
@@ -40,9 +42,12 @@ background: ;
 h3{
     display: inline;
     font-size:30px;
-    /* padding:5px; */
     color:rgb(94, 50, 15);
     background: #C57B57;
     border-radius: 10px;
     text-align: center;
+}
+
+img{
+       border-radius: 10px; 
 }
