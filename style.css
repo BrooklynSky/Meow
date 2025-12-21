@@ -1,0 +1,48 @@
+body{
+background-color: #F7DBA7;
+
+}
+
+
+h1{
+    text-align: center;
+    font-family: "Nova Round", system-ui;
+}
+p{
+font-family: "Meow Script", cursive;
+font-size: 30px;
+background: ;
+}
+
+.cat{
+    width:400px;
+    height:300px;
+}
+
+
+  .row {
+            display: flex;              /* Arrange items in a row */
+            align-items: center;        /* Vertically center items */
+            gap: 15px; 
+            background:#F1AB86;
+            color:white;              /* Space between items */
+        }
+        .row img {
+            width: 300px;               /* Set image size */
+            height: auto;               /* Keep aspect ratio */
+            border-radius: 5px;         /* Optional rounded corners */
+        }
+        .text-box {
+            font-size: 25px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+h3{
+    display: inline;
+    font-size:30px;
+    /* padding:5px; */
+    color:rgb(94, 50, 15);
+    background: #C57B57;
+    border-radius: 10px;
+    text-align: center;
+}
